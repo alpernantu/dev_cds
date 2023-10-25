@@ -20,6 +20,6 @@ ekpo.lgort,
 ekpo.meins,
 lfa1.lifnr,
 lfa1.name1 as ad1,
-concat( lfa1.stras ,concat(' ',lfa1.mcod3 ) ) as satici_adres
+concat_with_space( lfa1.stras , lfa1.mcod3 , 1 ) as satici_adres
     
 }
